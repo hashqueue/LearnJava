@@ -165,18 +165,18 @@ public class ArrayTest {
          * 二维数组
          */
         //动态初始化
-        Object[][] arr = new String[3][2];
-        System.out.println("arr.length:" + arr.length);//输出行数 3
-        System.out.println(arr[0].length);//输出列数 2
-        System.out.println(arr[1].length);//输出列数 2
-        System.out.println(arr[2].length);//输出列数 2
-//        System.out.println(arr[3].length);//输出列数 java.lang.ArrayIndexOutOfBoundsException: 3
-        //静态初始化
-        int[][] intA = {{1, 2, 5, 2}, {2, 3}, {3, 4, 5}};
-        System.out.println("intA.length:" + intA.length);//输出行数
-        System.out.println(intA[0].length);//输出列数 4
-        System.out.println(intA[1].length);//输出列数 2
-        System.out.println(intA[2].length);//输出列数 3
+//        Object[][] arr = new String[3][2];
+//        System.out.println("arr.length:" + arr.length);//输出行数 3
+//        System.out.println(arr[0].length);//输出列数 2
+//        System.out.println(arr[1].length);//输出列数 2
+//        System.out.println(arr[2].length);//输出列数 2
+////        System.out.println(arr[3].length);//输出列数 java.lang.ArrayIndexOutOfBoundsException: 3
+//        //静态初始化
+//        int[][] intA = {{1, 2, 5, 2}, {2, 3}, {3, 4, 5}};
+//        System.out.println("intA.length:" + intA.length);//输出行数
+//        System.out.println(intA[0].length);//输出列数 4
+//        System.out.println(intA[1].length);//输出列数 2
+//        System.out.println(intA[2].length);//输出列数 3
         /*
         输出：
         arr.length:3
@@ -188,8 +188,7 @@ public class ArrayTest {
         2
         3
          */
-        /**
-         * Java8增强的工具类:Arrays
-         */
+
     }
+
 }
