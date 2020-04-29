@@ -1,9 +1,6 @@
 package com.abc.part_three;
 
 import java.util.Arrays;
-import java.util.function.BinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.IntUnaryOperator;
 
 public class ArraysTest {
     public static void main(String[] args) {
