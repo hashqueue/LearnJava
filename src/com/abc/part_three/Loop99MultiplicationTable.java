@@ -1,7 +1,7 @@
 package com.abc.part_three;
 
 public class Loop99MultiplicationTable {
-    public static void main(String[] args) {
+    public void loop99MultiplicationTable() {
         /**
          * 循环打印99乘法表
          */
@@ -11,5 +11,9 @@ public class Loop99MultiplicationTable {
                 System.out.print(i + " * " + j + " = " + i * j + "\t");
             }
         }
+    }
+
+    public static void main(String[] args) {
+        new Loop99MultiplicationTable().loop99MultiplicationTable();
     }
 }
