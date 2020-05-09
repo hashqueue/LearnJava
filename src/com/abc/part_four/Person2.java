@@ -3,6 +3,7 @@ package com.abc.part_four;
 /**
  * 如果一个Java类的每个实例变量都被使用private修饰，并为每个实例变量都提供了public修饰setter和getter方法，那么这个类就是一个符合JavaBean规范的类
  * JavaBean总是一个封装良好的类。
+ * @author mi
  */
 public class Person2 {
     private String name;
@@ -29,8 +30,9 @@ public class Person2 {
     }
 
     public int getAge() {
-//        return this.age;
-        return age;//this关键字可以省略
+        //return this.age;
+        //this关键字可以省略
+        return age;
 
     }
 }
