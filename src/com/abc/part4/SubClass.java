@@ -24,6 +24,7 @@ public class SubClass extends BaseClass {
         System.out.println("我姐姐叫" + super.name + ", 我姐姐的年龄是" + super.age);
     }
 
+    @Override
     public void info(String sportName) {
         System.out.println("我叫小花花, 我喜欢" + sportName);
     }

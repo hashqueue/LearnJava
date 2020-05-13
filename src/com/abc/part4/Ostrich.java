@@ -6,6 +6,7 @@ package com.abc.part4;
  * @Description:
  */
 public class Ostrich extends Bird {
+    @Override
     public void fly() {
         System.out.println("我是一只鸵鸟，我不会飞，只能在地上跑!");
     }
