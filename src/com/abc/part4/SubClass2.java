@@ -46,5 +46,7 @@ public class SubClass2 extends BaseClass2 {
         System.out.println("bs.age:" + bs.age);
         //bs.info();
 
+        //SubClass2 sc = (SubClass2) new BaseClass2();
+
     }
 }
