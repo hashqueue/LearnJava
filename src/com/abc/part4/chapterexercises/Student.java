@@ -88,4 +88,15 @@ public class Student {
     public void sleep() {
         System.out.println("学生睡觉");
     }
+
+
+    /**
+     * 重写toString()方法
+     *
+     * @return 对象的所有属性
+     */
+    @Override
+    public String toString() {
+        return "Student{" + "name=" + name + ", age=" + age + ", gender=" + gender + ", phone=" + phone + ", address=" + address + ", email=" + email + "}";
+    }
 }
